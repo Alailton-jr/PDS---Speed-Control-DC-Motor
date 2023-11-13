@@ -15,7 +15,7 @@ This project implements a motor control system using a Proportional-Integral (PI
 - Keypad with I2C interface -> HW-400
 - LCD display with I2C interface -> LM041L
 
-![Example Image](simImage.SVG)
+![Example Image](SimImage.SVG)
 
 ## Operation
 1. Press '1' to turn the motor on.

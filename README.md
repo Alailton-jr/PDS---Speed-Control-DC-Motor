@@ -1,6 +1,6 @@
 # Motor Speed Control System with PI Controller
 
-A Project to control a DC motor Speed using ATMega328
+A Project to control a DC Motor Speed using ATMega328 and PI controller
 
 ## Overview
 

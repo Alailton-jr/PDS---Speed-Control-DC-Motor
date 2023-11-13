@@ -14,6 +14,7 @@ This project implements a motor control system using a Proportional-Integral (PI
 - dual H-bridge motor driver -> L298N Module
 - Keypad with I2C interface -> HW-400
 - LCD display with I2C interface -> LM041L
+![Example Image](MotorControlSim_page.png)
 
 ## Operation
 1. Press '1' to turn the motor on.

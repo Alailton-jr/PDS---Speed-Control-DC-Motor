@@ -34,7 +34,7 @@ The LCD displays the motor status, current velocity, and the reference velocity.
 ## PI Controller Equation
 $$G(z) = \frac{B0 \cdot (z - B1)}{(z - 1)}$$
 
-$$Voltage_{k} = Voltage_{k-1} + B0 \cdot Error_k + B1 \cdot Error_{k-1}$$
+$$Voltage_{(k)} = Voltage_{(k-1)} + B0 \cdot Error_{(k)}  + B1 \cdot Error_{(k-1)}$$
 ## Library Dependencies
 - Keypad_I2C.h
 - Wire.h

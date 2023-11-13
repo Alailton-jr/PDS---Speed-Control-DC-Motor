@@ -30,9 +30,9 @@ The LCD displays the motor status, current velocity, and the reference velocity.
 - Speed step: 0.2 revolutions per second
 
 ## PI Controller Equation
-$ G(z) = \frac{PI\_B0 \cdot (z - PI\_B1)}{(z - 1)} $
+$$G(z) = \frac{PI\_B0 \cdot (z - PI\_B1)}{(z - 1)}$$
 
-$ Voltage = Voltage\_dot + PI\_B0 \cdot Error + PI\_B1 \cdot Error\_dot  $
+$$Voltage = Voltage_{dot} + PI\_B0 \cdot Error + PI\_B1 \cdot Error\_dot$$
 
 ## Library Dependencies
 - Keypad_I2C.h
